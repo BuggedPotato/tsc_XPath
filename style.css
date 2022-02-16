@@ -1,0 +1,50 @@
+*{
+    font-family: Consolas;
+    color: whitesmoke
+}
+
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #202124;
+}
+
+#table{
+    margin-top: 100px;
+    border-collapse: collapse;
+}
+
+#table thead{
+    font-size: 22pt;
+    text-align: center;
+    font-style: italic;
+}
+
+#table tbody{
+    font-size: 16pt;
+}
+
+#table td{
+    border: 2px #66666e solid;
+    padding: 8px;
+}
+#table td:nth-child(1){
+    text-align: center;
+}
+
+#goBack{
+    position: absolute;
+    top: 50px;
+
+    display: none;
+    justify-content: center;
+
+    background-color: rgb(28,28,30);
+    border: 3px #3b3b40 solid;
+    border-radius: 4px;
+    font-size: 16pt;
+    padding: 4px;
+    min-width: 120px;
+}
